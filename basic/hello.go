@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+const englishHelloPrefix = "Hello, "
+
 const (
 	french  = "French"
 	spanish = "Spanish"
