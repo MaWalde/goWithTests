@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-const englishHelloPrefix = "Hello, "
-
 const (
 	french  = "French"
 	spanish = "Spanish"
@@ -21,7 +19,6 @@ func Hello(name string, language string) string {
 	if name == "" {
 		name = "World"
 	}
-
 	return greetingPrefix(language) + name
 }
 
