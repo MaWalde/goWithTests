@@ -5,11 +5,14 @@ import (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 func Hello(name string) string {
 	return "Hello, " + name
 =======
 const englishHelloPrefix = "Hello, "
 
+=======
+>>>>>>> e6b9522 (Added switch to replace many if-statements)
 const (
 	french  = "French"
 	spanish = "Spanish"
@@ -25,7 +28,6 @@ func Hello(name string, language string) string {
 	if name == "" {
 		name = "World"
 	}
-
 	return greetingPrefix(language) + name
 }
 
