@@ -1,3 +1,3 @@
-module github.com/MaWalde/goWithTests.git
+module github.com/MaWalde/goWithTests
 
 go 1.24.5
